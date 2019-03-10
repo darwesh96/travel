@@ -1,0 +1,54 @@
+﻿body {
+    margin:0px;
+    background:url(../Photo/Egypt.jpg) no-repeat center fixed;
+    background-size:cover;
+}
+
+.navtop {
+    background-color:black;
+    width:100%;
+    height:60px;
+
+}
+
+    .navtop ul {
+        list-style-type:none;
+
+    }
+        .navtop ul li {
+            height:60px;
+            width:80px;
+            float:left;
+
+        }
+
+            .navtop ul li a {
+                text-decoration:none;
+                color:white;
+                line-height:60px;
+                font-size:18px;
+            }
+
+                .navtop ul li a:hover {
+                    color:lightgray;
+                }
+
+                .egypt{
+                    display:none;
+                }
+                 .italy{
+                    display:none;
+                }
+                  .germany{
+                    display:none;
+                }
+                  .container{
+                      margin-top:400px;
+                  }
+
+                  .container p{color:white;
+                               font-size:20px;
+                  }
+                  .container h5{color:white;
+                               font-size:28px;
+                  }
